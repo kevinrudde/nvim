@@ -8,7 +8,7 @@ local M = {
     enabled = true,
     lazy = false,
     keys = {
-        { "<leader>e", ":Neotree toggle<CR>", { desc = "[E]xplorer" } },
+        { "<leader>e", ":Neotree<CR>", { desc = "[E]xplorer" } },
     },
 	opts = {
         window = {
