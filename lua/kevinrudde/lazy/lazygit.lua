@@ -1,10 +1,7 @@
-local M = {
+return {
     "kdheepak/lazygit.nvim",
     keys = {
         { "<leader>gg", ":LazyGit<CR>", "Lazygit" },
     },
 }
 
-
-
-return M
