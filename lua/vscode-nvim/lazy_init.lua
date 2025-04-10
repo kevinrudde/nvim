@@ -22,5 +22,5 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 require("lazy").setup({
-    spec = "kevinrudde.lazy",
+    spec = "vscode-nvim.lazy",
 })

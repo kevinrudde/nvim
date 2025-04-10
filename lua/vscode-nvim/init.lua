@@ -1,6 +1,6 @@
-require("kevinrudde.remap")
-require("kevinrudde.vscode")
-require("kevinrudde.lazy_init")
+require("vscode-nvim.remap")
+require("vscode-nvim.vscode")
+require("vscode-nvim.lazy_init")
 
 local augroup = vim.api.nvim_create_augroup
 local MainGroup= augroup('MainGroup', {})
