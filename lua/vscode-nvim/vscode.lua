@@ -12,9 +12,9 @@ map_vscode_action("n", "<leader>fc", "workbench.action.showCommands") -- find co
 map_vscode_action("n", "<leader>fp", "workbench.action.quickOpen") -- find files
 map_vscode_action("n", "<leader>tw", "workbench.action.terminal.toggleTerminal") -- terminal window
 
--- FindItFaster mappings
-map_vscode_action("n", "<leader>pf", "find-it-faster.findFiles")
-map_vscode_action("n", "<leader>ps", "find-it-faster.findWithinFiles")
+-- Television mappings
+map_vscode_action("n", "<leader>pf", "television.ToggleFileFinder")
+map_vscode_action("n", "<leader>ps", "television.ToggleTextFinder")
 
 
 
