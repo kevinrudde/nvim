@@ -4,3 +4,4 @@
 
 vim.g.snacks_animate = false
 vim.g.lazyvim_picker = "fzf"
+vim.g.autoformat = false
