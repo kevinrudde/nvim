@@ -5,6 +5,7 @@ return {
     local uv = vim.loop
     local refcount_path = "/tmp/cursortab-llama.refcount"
     local pid_path = "/tmp/cursortab-llama.pid"
+    local log_path = "/tmp/cursortab-llama.log"
 
     local function read_number(path)
       local file = io.open(path, "r")
@@ -55,6 +56,8 @@ return {
         "sweepai/sweep-next-edit-1.5b",
         "--port",
         "7878",
+        "--log-file",
+        log_path,
       }, {
         detach = true,
       })
@@ -91,6 +94,7 @@ return {
         type = "sweep",
         url = "http://localhost:7878",
         model = "sweep-next-edit-1.5b",
+        max_tokens = 1024,
       }
     })
   end,
