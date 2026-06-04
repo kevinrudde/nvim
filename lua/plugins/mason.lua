@@ -4,6 +4,7 @@ return {
     opts = {
       ensure_installed = {
         "harper-ls",
+        "jdtls",
       },
     },
     keys = {
@@ -28,6 +29,9 @@ return {
   {
     "neovim/nvim-lspconfig",
     opts = {
+      inlay_hints = {
+         enabled = false,
+      },
       servers = {
         harper_ls = {
           autostart = false,
