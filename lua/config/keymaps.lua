@@ -12,3 +12,5 @@ end
 map("x", "p", [["_dP]], { desc = "Paste Without Replacing Clipboard" })
 map("x", "<C-v>", [["_dP]], { desc = "Paste Without Replacing Clipboard" })
 map("x", "<D-v>", [["_dP]], { desc = "Paste Without Replacing Clipboard" })
+
+map("i", ";;", "<C-O>A;")
